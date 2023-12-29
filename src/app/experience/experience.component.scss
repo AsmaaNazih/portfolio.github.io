@@ -1,0 +1,31 @@
+.experience-card{
+    font-family: serif;
+    margin-left: 30%;
+    width: 35%;
+    box-shadow: 5px 5px 5px 5px#FFFFFF ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    h2{
+        color: #FFFFFF;
+        padding: 5px;
+    } 
+    h4{
+        color: #FFFFFF;
+        padding: 5px;
+    } 
+    p{
+        color:#FFFFFF;
+        padding: 5px;
+    } 
+} 
+
+@media screen and (max-width: 576px) {
+    .experience-card{
+        width: 90%;
+        margin-left: 3%;
+        margin-top: 4%;
+        flex-direction: column;
+    } 
+}  
