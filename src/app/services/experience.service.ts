@@ -7,7 +7,16 @@ import { Experience } from "../models/experience.model";
 export class ExperienceService{
 
     experiences: Experience[] = [
+        
+        {   
+            id: 3,
+            duree:'09/2023  07/2024',
+            metier: "Animation Périscolaire",
+            lieu: "Ecole élémentaire à Rennes (35)",
+            description:"Animations d'activités, encadrement des temps de repos et de devoir, collaboration avec l'équipe éducative" 
 
+        }
+        ,
         {   
             id: 2,
             duree:'09/2022  07/2023',

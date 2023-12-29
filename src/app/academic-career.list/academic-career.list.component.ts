@@ -10,7 +10,7 @@ import { CareerService } from '../services/career.service';
 export class AcademicCareerListComponent implements OnInit {
 
   careers!:Career[];
-
+  
   constructor(private careerService:CareerService){}
 
   ngOnInit(): void {
